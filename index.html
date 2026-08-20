@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Revisão SESI do 3º bimestre para estudantes do Ensino Médio."
+    />
+    <title>Revisão SESI - 3º Bimestre</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner page-shell">
+        <a class="brand" href="index.html" aria-label="Página inicial da Revisão SESI">
+          <span class="brand__mark" aria-hidden="true">S</span>
+          <span>Revisão SESI</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="index.html" aria-current="page">Início</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero page-shell" aria-labelledby="page-title">
+        <span class="eyebrow">3º Bimestre</span>
+        <h1 id="page-title">Revisão SESI - 3º Bimestre</h1>
+        <p class="hero__intro">
+          Escolha sua turma para acessar os conteúdos, quizzes e checklists de estudo.
+        </p>
+      </section>
+
+      <section class="section page-shell" aria-labelledby="grade-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="grade-title">Selecione seu ano</h2>
+            <p>Continue sua revisão a partir da série correspondente.</p>
+          </div>
+        </div>
+
+        <div class="knowledge-areas grade-options">
+          <a class="knowledge-card grade-card" href="2ano.html">
+            <span class="knowledge-card__icon" aria-hidden="true">2º</span>
+            <span>
+              <h3>2º Ano Ensino Médio</h3>
+              <p>Revise os principais conteúdos do bimestre.</p>
+            </span>
+            <span class="grade-card__action">Acessar revisão <span aria-hidden="true">→</span></span>
+          </a>
+
+          <a class="knowledge-card grade-card" href="3ano.html">
+            <span class="knowledge-card__icon" aria-hidden="true">3º</span>
+            <span>
+              <h3>3º Ano Ensino Médio</h3>
+              <p>Organize seus estudos e acompanhe seu progresso.</p>
+            </span>
+            <span class="grade-card__action">Acessar revisão <span aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell">
+        <p>Revisão SESI <span data-current-year></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
