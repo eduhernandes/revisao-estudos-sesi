@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll(".checklist").forEach((checklist) => {
     const items = [...checklist.querySelectorAll('input[type="checkbox"]')];
-    const progressBlock = checklist.parentElement.previousElementSibling;
+    const progressBlock = checklist.previousElementSibling;
     const progressBar = progressBlock?.querySelector('[role="progressbar"]');
     const progressValue = progressBlock?.querySelector(".progress__value");
     const progressLabel = progressBlock?.querySelector("[data-progress-label]");
